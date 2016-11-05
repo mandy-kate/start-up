@@ -15,13 +15,12 @@ Characters & Attributes
 ----------
 ----------
 - You (hero)
-  Looking for ways to get more time / money (good advice, helpful friend)
+  Moving around board you can choose several paths to success 
 
-- Consultants
-  Take money (e.g. charge for advice "failure is a rich learning experience etc")
+- Consultant
+  Charge for advice "failure is a rich learning experience" etc
 
 - Helpful Friend
-  Help you with start up (laughter, give advice)
 
 Wins and Losses
 ----------------
