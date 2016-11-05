@@ -6,13 +6,26 @@ import { Provider } from 'react-redux'
 import App from './components/app'
 
 const initialState = {
-  vetClinic: {
-    cats: [{name: 'fluffy'}]
-  },
-  shop: {
-    cats: [{name: 'kitty'}],
-    dogs: [{name: 'pup'}]
-  }
+    ground: [
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0]
+  ],
+    player: {
+      name: 'player1',
+      position: {
+        x: 5,
+        y: 5
+      },
+      time: 5 * 60,
+      powerups: [],
+      health: 4,
+      hasWon: false,
+    }
 }
 
 const reducer = function (state = initialState , action) {
@@ -23,7 +36,7 @@ const store = createStore(reducer)
 
 render(
   <Provider store={store}>
-    <App name='Pet store' />
+    <App name='Start Up' />
   </Provider>,
   document.querySelector('main')
 )

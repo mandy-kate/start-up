@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Cats (props) {
+function player (props) {
   return (
     <ul>
-      {props.cats.map(function (cat, index) {
+      {props.player.map(function (player, index) {
          return (
            <li key={index}>
-             {cat.name}
+             {player.name}
            </li>
          )
        })}
@@ -14,4 +14,4 @@ function Cats (props) {
   )
 }
 
-export default Cats
+export default player
