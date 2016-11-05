@@ -15,13 +15,13 @@ Characters & Attributes
 ----------
 ----------
 - You (hero)
-- name, age (grade), ways to get more time / money (good advice, helpful friend)
+  Looking for ways to get more time / money (good advice, helpful friend)
 
 - Consultants
-- Take money (e.g., charge for advice "failure is a rich learning experience etc")
+  Take money (e.g. charge for advice "failure is a rich learning experience etc")
 
 - Helpful Friend
-- name, grade, ways to help you make start up (laughter, give advice, motivate)
+  Help you with start up (laughter, give advice)
 
 Wins and Losses
 ----------------
